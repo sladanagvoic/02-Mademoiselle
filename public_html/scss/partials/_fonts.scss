@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+$lato: 'Lato', sans-serif;
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('./fonts/BedoniBook/Bodoni-Book.eot');
+    src: local('./fonts/BedoniBook/Bodoni Book'), local('./fonts/BedoniBook/Bodoni-Book'),
+        url('./fonts/BedoniBook/Bodoni-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BedoniBook/Bodoni-Book.woff2') format('woff2'),
+        url('./fonts/BedoniBook/Bodoni-Book.woff') format('woff'),
+        url('./fonts/BedoniBook/Bodoni-Book.ttf') format('truetype'),
+        url('./fonts/BedoniBook/Bodoni-Book.svg#Bodoni-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('./fonts/BedoniBookItalic/MBodoni-BookItalic.eot');
+    src: local('./fonts/BedoniBookItalic/Bodoni Book Italic'), local('./fonts/BedoniBookItalic/MBodoni-BookItalic'),
+        url('./fonts/BedoniBookItalic/MBodoni-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BedoniBookItalic/MBodoni-BookItalic.woff2') format('woff2'),
+        url('./fonts/BedoniBookItalic/MBodoni-BookItalic.woff') format('woff'),
+        url('./fonts/BedoniBookItalic/MBodoni-BookItalic.ttf') format('truetype'),
+        url('./fonts/BedoniBookItalic/MBodoni-BookItalic.svg#MBodoni-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+$bodoni: 'Bodoni';

@@ -1,0 +1,42 @@
+.hero{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    margin-bottom: 55px;
+    @media(min-width: 992px){
+        margin-bottom: 75px;
+    }
+
+    .container-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        min-height: 50vh;
+        @media(min-width: 576px){
+            min-height: 60vh;
+        }
+        @media(min-width: 768px){
+            min-height: 80vh;
+        }
+        @media(min-width: 992px){
+            min-height: 100vh;
+        }
+    }
+}
+
+
+.hero-404{
+    margin-bottom: 30px;
+    a{
+        color: $light;
+        border-color: $light;
+        &:hover{
+            color: $light;
+        }
+    }
+}
+
+

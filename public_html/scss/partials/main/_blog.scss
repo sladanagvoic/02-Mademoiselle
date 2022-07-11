@@ -1,0 +1,22 @@
+.blog-wrapper{
+    margin-bottom: 40px;  
+    .blog-pagination-wrapper{
+        .pagination{
+            .page-item{
+                margin-inline: 2px;
+                .page-link{
+                    color: inherit;
+                    font-family: $bodoni;
+                    border: none;
+                    &:hover{
+                        background-color: $pink;   
+                    }
+                    &:focus{
+                            background-color: transparent;
+                            box-shadow: 0 0 5px $pink;
+                        }
+                }
+            }
+        }
+    }    
+}

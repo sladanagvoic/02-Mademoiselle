@@ -1,0 +1,29 @@
+footer{
+   
+    .social{
+         @media(min-width: 1200px){
+                padding-top: 20px !important;
+            }
+        a{
+            font-size: 2.3rem;
+            color: $pink;
+            margin-inline: 15px;
+            margin-bottom: 19px;
+            &:hover{
+                 transform: scale(1.5, 1.5);
+            }
+            @media(min-width: 992px){
+                margin-bottom: 40px;
+            }
+        }
+    }
+    
+    .copyright{
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.17px; 
+        a{
+            color:inherit;
+        }
+    }
+}

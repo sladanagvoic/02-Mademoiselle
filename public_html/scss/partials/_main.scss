@@ -1,0 +1,19 @@
+ @import "main/_hero.scss";
+ @import "main/_last-news.scss";
+ @import "main/_services-section.scss";
+ @import "main/_testimonials.scss";
+ @import "main/_about-us.scss";
+ @import "main/_aside-news.scss";
+ @import "main/_blog.scss";
+ @import "main/_blog-single.scss";
+ @import "main/_services.scss";
+ @import "main/_services-single.scss";
+ @import "main/_contact.scss";
+
+ 
+ main{
+    margin-top: 70px;
+    @media(min-width: 992px){
+        margin-top: 75px;
+    }
+ }

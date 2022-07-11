@@ -1,0 +1,72 @@
+.contact{
+
+    margin-top: 120px;
+    margin-bottom: 70px;
+    @media(min-width: 992px){
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 110px;
+    }
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .section-title{
+        &:after{
+            width: 0;
+        }
+    }
+    .contact-form{
+        .form-control{
+            border: none;
+            background-color: rgba(#253D61, 0.2);
+            line-height: 5rem;
+            padding: 0 7px 0 19px;
+            &::placeholder{
+                font-weight: 300;
+                letter-spacing: -0.23px;
+
+                opacity: 1;
+            }
+        }
+        textarea{
+            resize: none;
+        }
+    }
+
+    .contact-map-wrapper{
+        @media(min-width:992px){
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+        iframe{
+            width: 100%;
+            @media(min-width:992px){
+                height: 100%;
+            }
+        }
+
+    }
+
+}
+
+
+.contact-info{
+    background-color: $pink;
+    text-align: center;
+    padding: 60px 0;
+    margin-bottom: 46px;
+    a{
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: 300;
+        display: block;
+        margin-bottom: 15px;
+        &:hover{
+            color: inherit;
+        }
+        
+        
+    }
+}
